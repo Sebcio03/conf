@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "devhelper"
+version = "0.1.0"
+description = "ChatGPT simple script to boost software engineering productivity"
+authors = ["Sebastian Ozimkowski <sebastianozimkowski@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.13.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

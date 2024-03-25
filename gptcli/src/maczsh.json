@@ -1,0 +1,5 @@
+{
+	"model": "gpt-4",
+	"system": "Answer extremely concise",
+	"user": "Answer with only the actual command without any intro or explanation. What is the mac shell command line command to"
+}
