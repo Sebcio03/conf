@@ -1,8 +1,8 @@
-from openai import OpenAI
-from conf import settings
-
-import sys
 import asyncio
+import sys
+
+from conf import settings
+from openai import OpenAI
 
 
 async def invoke(client: OpenAI, messages: list[dict]) -> None:
