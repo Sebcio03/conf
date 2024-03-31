@@ -1,6 +1,6 @@
 # My scripts and configs for SWE productivity
 
-# some aliases
+# Some aliases
 
 ```bash
 alias py="~/pypy3.10/bin/pypy"
@@ -8,7 +8,6 @@ alias pyp="py -m pip"
 
 # Terraform
 alias tf="terraform"
-alias tfa="terraform apply"
 alias tfl="tflocal"
 
 # Kubernetes
@@ -19,7 +18,7 @@ alias kgpo='kubectl get pod'
 # Docker
 alias d="docker"
 alias de="docker -it exec"
-alias dl="docker log"
+alias dl="docker logs"
 alias di="docker inspect"
 alias ds="docker system"
 alias dp="docker ps"
